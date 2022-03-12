@@ -4,10 +4,11 @@
  * main - Prints the alphatbet in lowercase
  * follow by a new line
  *
- * Result: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
+
 {
 	char c;
 
