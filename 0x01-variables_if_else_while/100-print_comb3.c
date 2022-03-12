@@ -8,9 +8,10 @@
 
 int main(void)
 {
-	int a, b,
+	int a,
+	int b,
 
-	for (a = 0; a <= 10; a++)
+	for (a = 0; a <= 9; a++)
 	{
 		for (b = a + 1; b <= 9; b++)
 		{
@@ -20,7 +21,7 @@ int main(void)
 			if (((a * 10) + b) < 89)
 			{
 				putchar(',');
-				putchar(' ');
+			putchar(' ');
 			}
 		}
 	}
