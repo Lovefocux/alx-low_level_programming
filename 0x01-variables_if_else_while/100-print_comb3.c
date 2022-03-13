@@ -8,21 +8,24 @@
 
 int main(void)
 {
+	int c, i;
 
-	for (int a = 0; a <= 9; a++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (int b = a + 1; b <= 9; b++)
+		for (i = '0'; i <= '9'; i++)
 		{
-			putchar(a + '0');
-			putchar(b + '0');
-
-			if (((a * 10) + b) < 89)
+			if (c < i)
 			{
-				putchar(',');
-			putchar(' ');
+				putchar(c);
+				putchar(i);
+				if (c != '8' || (c == '8' && i != "9"))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
 	putchar('\n');
-	return (0);
+		return  (0);
 }
