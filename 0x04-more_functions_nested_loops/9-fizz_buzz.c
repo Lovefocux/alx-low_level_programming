@@ -9,12 +9,9 @@
 
 int main(void)
 {
-
 	int i;
 
-
 	for (i = 1; i < 101; ++i)
-
 	{
 
 		if (i % 15 == 0)
@@ -37,9 +34,9 @@ int main(void)
 		if (i < 100)
 
 			printf(" ");
+	}
 
 	printf("\n");
 
 	return (0);
-
 }
