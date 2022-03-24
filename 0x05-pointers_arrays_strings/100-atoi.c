@@ -20,8 +20,7 @@ int _atoi(char *s)
 			num = (num * 10) + (*s - '0');
 
 		num = (num * 10) + (*s - '0');
-		break;
-	 }
-		while (*s++)
+			break;
+	 } while (*s++)
 		return (num * sign);
 }
