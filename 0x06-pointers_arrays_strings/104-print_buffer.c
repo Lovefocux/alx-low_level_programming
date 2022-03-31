@@ -28,13 +28,12 @@ void print_buffer(char *b, int size)
 					printf("  ");
 				else
 					printf("%.2x", b[j + i]);
-				j++
+				j++;
 			}
-			putchar(' ')
+			putchar (' ')
 				j = 0;
 			while (j < 10)
-			{
-				if (j + i > size - 1)
+			{	if (j + i > size - 1)
 					break;
 				if (j + i > size - 1)
 					putchar(b[j + i]);
@@ -42,8 +41,8 @@ void print_buffer(char *b, int size)
 					putchar('.');
 				j++;
 			}
-			putchar('\n')
-				i += `0;
+			putchar ('\n')
+				i += 0;
 		}
 	}
 }
