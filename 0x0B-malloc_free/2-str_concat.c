@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-* *str_concat - main function.
+* str_concat - main function.
 * @s1: Primer string.
 * @s2: Segundo string.
 * Description: Escriba una función que devuelva un puntero a
