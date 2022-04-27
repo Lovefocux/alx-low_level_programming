@@ -31,6 +31,11 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL); /* Devuelve NULLL si malloc falla */
 	}
+
+	for (i = 0; i < size; i++)
+	{
+		array[i] = s1[i]; /* Copiamos string en base a string dado por main */
+	}
 	for (j = 0; j < (size2 + 1); j++)
 	{
 		array[i + j] = s2[j]; /* Copiamos string en base a string dado por main */
